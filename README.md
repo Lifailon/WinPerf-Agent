@@ -11,7 +11,7 @@
 ## Установка:
 
 * Скопировать директорию **[WinPerf-Agent](https://github.com/Lifailon/WinPerf-Agent/releases)** в корень диски `C:\`
-* **[Скачать NSSM-2.24.exe](https://www.nssm.cc/download)** и поместить в директорию `WinPerf-Agent`
+* **[Скачать NSSM-2.24.exe](https://www.nssm.cc/download)** и поместить в директорию `C:\WinPerf-Agent\NSSM-2.24.exe`
 * Создать службу: \
 `$powershell_Path = (Get-Command powershell).Source` \
 `$NSSM_Path = (Get-Command "C:\WinPerf-Agent\NSSM-2.24.exe").Source` \
