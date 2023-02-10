@@ -10,7 +10,7 @@
 
 * Скопировать директория `WinPerf-Agent` в корень диски `C:\`
 * **[Скачать NSSM-2.24.exe](https://www.nssm.cc/download)** и поместить в директорию `WinPerf-Agent`
-* Создать службу:
+* Создать службу: \
 `$powershell_Path = (Get-Command powershell).Source` \
 `$NSSM_Path = (Get-Command "C:\WinPerf-Agent\NSSM-2.24.exe").Source` \
 `$Script_Path = "C:\WinPerf-Agent\WinPerf-Agent-1.1.ps1"` \
